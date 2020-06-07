@@ -148,7 +148,7 @@ for index in range(len(target_names)):
     try:
         # Select the target_names[index]
         # x_arg = '//span[@title=' + target_names[index] + ' and contains(@class, "_3ko75")]'
-        x_arg = '//*[@id="pane-side" and .//span[@title=' + target_names[index] + ' and contains(@class, "_3ko75")]]'
+        x_arg = '//span[@class="_357i8" and //span[@title=' + target_names[index] + ' and contains(@class, "_3ko75")]]'
         print(x_arg)
         # try:
         #     wait5.until(EC.presence_of_element_located((
